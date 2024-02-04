@@ -1,7 +1,7 @@
 import type { Request, Response } from "express";
 import express from "express";
 
-import { validate } from "../utils/validate";
+import { validate } from "../../utils/validate";
 import { bookSchema } from "./book.schema";
 import * as BookService from "./book.service";
 

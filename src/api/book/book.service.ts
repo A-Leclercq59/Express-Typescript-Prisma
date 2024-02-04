@@ -1,12 +1,4 @@
-import { db } from "../utils/db.server";
-
-type BookRead = {
-  id: number;
-  title: string;
-  datePublished: Date;
-  isFiction: boolean;
-  authorId: number;
-};
+import { db } from "../../utils/db.server";
 
 type BookWrite = {
   title: string;
